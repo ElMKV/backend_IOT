@@ -28,7 +28,7 @@ app.use((req, res, next) => {
     });
 });
 
-app.route('/api/users')
+app.route('/api/data')
     .get((req, res) => {
             console.log(`get`)
 
